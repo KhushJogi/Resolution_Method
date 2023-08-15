@@ -1,0 +1,22 @@
+<PROGRAM>
+	<OR pos="3:32" text="or">
+		<OR text="or">
+			<NOT>
+				<EQ pos="3:36" text="=">
+					<VARIABLE pos="3:35" text="N_0" />
+					<INTEGER pos="3:37" text="0" />
+				</EQ>
+			</NOT>
+			<NOT>
+				<EQ pos="3:42" text="=">
+					<VARIABLE pos="3:41" text="V_1" />
+					<INTEGER pos="3:43" text="1" />
+				</EQ>
+			</NOT>
+		</OR>
+		<PREDICATE pos="3:17" text="fib">
+			<VARIABLE pos="3:21" text="N_0" />
+			<VARIABLE pos="3:23" text="V_1" />
+		</PREDICATE>
+	</OR>
+</PROGRAM>
